@@ -1,5 +1,6 @@
 Feature: Registro y Consulta de Historia Clínica  
-  Como ganadero, quiero registrar y consultar el historial clínico de cada animal (vacunas, enfermedades, tratamientos), para dar seguimiento a su salud individual.
+  Como ganadero, quiero registrar y consultar el historial clínico de cada animal (vacunas, enfermedades, tratamientos), 
+  para dar seguimiento a su salud individual.
 
   Scenario Outline: Registrar una nueva vacuna en el historial clínico
     Given que el ganadero está autenticado
