@@ -1,5 +1,6 @@
 Feature: Servicio aislado de vacunaciones  
-  Como ganadero, quiero que el servicio de vacunaciones esté aislado, para garantizar estabilidad aunque otros módulos fallen.
+  Como ganadero, quiero que el servicio de vacunaciones esté aislado, para garantizar estabilidad 
+  aunque otros módulos fallen.
 
   Scenario Outline: Acceder al servicio de vacunaciones mientras otros módulos fallan
     Given que el módulo de gestión de ganado está experimentando fallos
