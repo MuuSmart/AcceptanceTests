@@ -1,5 +1,6 @@
 Feature: Alertas en caso de fallos de conexión  
-  Como productor, quiero recibir notificaciones de salud de manera confiable aunque falle la conexión, para no olvidar tareas importantes.
+  Como productor, quiero recibir notificaciones de salud de manera confiable aunque falle la conexión, 
+  para no olvidar tareas importantes.
 
   Scenario Outline: Sincronización de alertas offline al recuperar conexión
     Given que el productor registra una vacuna pendiente mientras está sin conexión
